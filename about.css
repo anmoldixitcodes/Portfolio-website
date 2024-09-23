@@ -1,0 +1,86 @@
+/* About Section is Here */
+.about-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 2px;
+    background-image: url(/background/about1.webp);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animate 10s linear infinite alternate;
+    background-size: 120% 120%;
+    color: white;
+    overflow: hidden;
+    
+}
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 50% 0;
+    }
+    100%{
+        background-position: 100% 0;
+    }
+}
+
+.about-section h2 span img{
+    width: 30px;
+    height: 30px;
+    margin: -3px 17px;
+    
+}
+.about-section h2 span{
+   color: purple;
+}
+.about-section h2{
+    font-size: 34px;
+}
+.about-img{
+    margin: 18px 0px;
+    border-radius: 23px;
+    filter: grayscale(25%);
+    box-shadow: 2px 2px 6px 2px rgb(170, 168, 168);
+    /* transform: rotate(23deg); */
+}
+.about-content{
+    padding: 17px 250px;
+    
+}
+.violet{
+    color: rgb(206, 186, 217);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 7px;
+}
+.about-content h2{
+    margin: 7px 2px;
+}
+.about-content p{
+    margin: 14px 0px;
+}
+.about-content p a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:870px){
+/* about section */
+.about-img{
+    width: 80vw;
+}
+.hidden-content{
+    display: none;
+}
+.about-content{
+    padding: 4px 4px;
+    width: 80vw;
+}
+/* .about-section h2{
+    margin-left: -48px;
+} */
+
+}
