@@ -8,7 +8,7 @@
     padding: 16px 2px;
     margin-top: 12px;
     /* background-color: antiquewhite; */
-    background-image: url(/Education_pictures/background.jpg);
+    background-image: url(background.jpg);
    background-position: 0px 0px;
    background-repeat: repeat-x;
    animation: animate 15s linear infinite alternate;
