@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(141, 140, 141);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(168, 98, 98),rgb(143, 221, 143),rgb(143, 143, 182),rgb(202, 135, 202),rgb(97, 86, 86));
+     
+    animation: color 10s ease-in-out infinite;
+    background-size: 300% 300%;
+    
+    
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: #9fb2d8;   
+    z-index: 1;
+    height: 44px;
+    /* overflow: scroll; */
+}
+nav{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    /* align-items: center; */
+    /* background-color: rgb(147, 103, 189); */
+}
+
+.left h2{
+    margin: 7px 2px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbol{
+    /* border: 2px solid black; */
+    
+    font-size: 26px;
+    margin: auto 6px;
+    
+}
+
+nav ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+nav ul li{
+    margin: 14px 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
+nav ul li a:hover{
+    font-size: 1.1rem;
+    color: rgb(230, 224, 224);
+}
+.btn-icon{
+    display: none;
+    
+}
+/* .btn-cross{
+    display: none;
+} */
+.appear{
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    transition: 1s;
+}
+hr{
+    border: 0;
+    background-color: #b1b2b4;
+    height: 2px;
+    margin: 2px 60px;
+    /* box-shadow: 2px 2px white; */
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 2px;
+    align-items: center;
+}
+.purple{
+    color: rgb(236, 233, 240);
+}
+.leftsection{
+    
+    font-size: 3rem;
+     
+   }
+.btn{
+    width: 150px;
+    height: 36px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px grey;
+}
+.btn:hover{
+    /* background-color: rgb(129, 128, 128); */
+    cursor: pointer;
+    
+}
+.btn a{
+    color: rgb(203, 70, 236);
+    text-decoration: none;
+  
+}
+.btn a:hover{
+    /* color: rgb(249, 247, 250); */
+    color: rgb(36, 35, 35);
+    
+}
+.rightsection img{
+    /* border: 2px solid purple; */
+    border-radius: 225px;
+    width: 300px;
+    background-color: blue;
+    /* filter: brightness(12%); */
+    
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(95, 94, 94);
+    box-shadow: -1px -1px rgb(212, 206, 206);
+    margin: 2px 2px;
+    padding: 8px 2px;
+    /* position: fixed; */
+
+    
+}
+.footer ul li{
+    margin: 2px 23vw;
+    list-style: none;
+    margin-bottom: 5px;
+    color: antiquewhite;
+
+}
+.footer ul li a{
+   
+   color: antiquewhite;
+   text-decoration: none;
+
+}
+/* for animation */
+
+/* .hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(1px);
+    transform: translateY(-50%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+} */
+
+
+@media screen and (max-width:870px) {
+
+nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    
+} 
+.left h2{
+    margin-left: 3px;
+}
+
+nav ul li a{
+    color: white;
+}
+.appear{
+    height: 14.3rem;
+    flex-direction: column;
+    width: 225px;
+    background-color: #282e3b;
+    border-bottom-right-radius: 10px;
+    
+    
+    /* transform: translate(0); */
+    /* transition: 1s; */
+    /* height: 100%; */
+}
+.disappear{
+    height: 0;
+    display: flex;
+    /* transform: translate(-101%); */
+    
+    
+
+}
+.btn-icon{
+    display: block;
+    margin-right: 30px;
+    width: 17px;
+    height: 18px;
+}
+.section1{
+    flex-direction: column;
+}
+.leftsection{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.btn-container{
+    margin: 24px 2px;
+}
+.rightsection img{
+    border-radius: 33px;
+    width: 250px;
+    
+}
+
+
+
+/* skills section */
+.skills-container{
+    width: 78vw;
+}
+
+/* contact section */
+.contact-container{
+    flex-direction: column;
+    height: 669px;
+    
+}
+.contact-form{
+    position: relative;
+    
+    top: -68px;
+    
+}
+
+.contact-img img{
+ position: relative;   
+ top: 1px;
+}
+
+}
+    
+.footer ul li{
+    margin: 2px 8vw;
+    
+
+}

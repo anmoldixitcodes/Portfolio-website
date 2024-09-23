@@ -1,0 +1,58 @@
+
+/* Skills section is here */
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+
+    
+
+}
+.skill-section h2{
+    font-size: 34px;
+    margin: 8px 2px;
+}
+.skill-section h2 span{
+    color: rgb(179, 87, 13);
+}
+.skill-logo{
+    width: 34px;
+    height: 34px;
+    margin: -5px 12px;
+    border-radius: 17px;
+}
+.skills-container{
+    /* height: 50vw; */
+    width: 38%;
+    background-color: rgb(146, 146, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+.skills{
+    /* background-color: red; */
+    margin: 12px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills img{
+    height: 85px;
+    width: 95px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(139, 137, 137);
+}
+.skills h4{
+    margin: 0px 2px;
+    margin-top: 12px;
+}
+
+
+
+

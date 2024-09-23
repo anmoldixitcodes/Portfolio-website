@@ -1,0 +1,48 @@
+/* This is my work css */
+.work-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 28px; */
+    /* background-color: blue; */
+}
+.work-section h2{
+    font-size: 34px;
+    margin: 8px 2px;
+}
+.work-section h2 span{
+    color: rgb(179, 87, 13);
+}
+.work-logo{
+    width: 34px;
+    height: 34px;
+    margin: -5px 12px;
+    border-radius: 17px;
+}
+.work-container{
+   display: flex;
+   width: 50vw;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.work-content{
+/* background-color: brown; */
+margin: 7px 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 2px solid black;
+padding: 2px 2px;
+border-radius: 10px;
+box-shadow: 4px 4px 4px grey;
+}
+.work-content img{
+    width: 200px;
+    height: 190px;
+}
+.work-content h3{
+    margin: 14px 2px;
+}
