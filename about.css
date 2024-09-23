@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     padding: 16px 2px;
-    background-image: url(/background/about1.webp);
+    background-image: url(about1.webp);
     background-position: 0px 0px;
     background-repeat: repeat-x;
     animation: animate 10s linear infinite alternate;
