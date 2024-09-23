@@ -1,0 +1,104 @@
+/* contact page css */
+.contact-section{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 2px;
+    margin-top: 12px;
+    /* background-image: url(background/contact.jpg); */
+    
+}
+.contact-section h2 span img{
+    width: 30px;
+    height: 30px;
+    margin: -3px 17px;
+    
+}
+.contact-section h2 span{
+   color: purple;
+}
+.contact-section h2{
+    font-size: 34px;
+}
+.contact-container{
+    background-color: white;
+    display: flex;
+    border-radius: 9px;
+    box-shadow: 4px 4px 10px grey;
+    margin-top: 27px;
+}
+.contact-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-img img{
+    width: 250px;
+    height: 250px;
+    /* Padding: 100px 0px; */
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin: 27px 23px;
+}
+.labels{
+    margin: 15px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 10px;
+    padding: 2px 2px;
+}
+.labels i{
+    margin: 0px 4px;
+}
+.form-img{
+    position: relative;
+    top: -104px;
+}
+.labels input{
+    width: 214px;
+    height: 38px;
+    
+    border: 0px solid white;
+    
+    padding: 7px 0px;
+}
+.labels input:focus{
+    outline: none;
+}
+.labels #message{
+    width: 214px;
+    height: 110px;
+    border: 2px solid white; 
+   
+    padding: 7px 0px;
+}
+.labels #message:focus{
+    outline: none;
+}
+.contact-submit button{
+    width: 112px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 9px;
+    position: relative;
+    left: 149px;
+    cursor: pointer;
+}
+
+.contact-submit button:hover{
+    color: rgb(211, 219, 226);
+    background-color: rgb(156, 151, 151);
+}
+.form_img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -98px;
+}
+/* .white{
+    color: white;
+} */
